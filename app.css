@@ -1,0 +1,1268 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    position: absolute;
+    height: 5%;
+    top: 0;
+    left: 0;
+    width: 98.15%;
+    padding: 25px 12.5px;
+    background-color: rgb(218, 218, 245);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    z-index: 100;
+    color: rgb(59, 9, 109);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.ESP {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    height: 90%;
+    width: 50%;
+    border-top-left-radius: 10px;
+    background-color: gray;
+}
+
+.up {
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    border-top-left-radius: 10px;
+}
+
+.ci {
+    position: absolute;
+    left: 3%;
+    height: 35%;
+    top: 35%;
+    width: 2%;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.ce {
+    position: absolute;
+    left: 6%;
+    height: 35%;
+    top: 35%;
+    width: 2%;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.ca {
+    position: absolute;
+    left: 9%;
+    height: 35%;
+    top: 35%;
+    width: 2%;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.din {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.main {
+    background-color: transparent;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.Home {
+    text-decoration: none;
+    color: rgb(22, 3, 41);
+}
+
+.service {
+    text-decoration: none;
+    color: rgb(22, 3, 41);
+}
+
+.Resource {
+    text-decoration: none;
+    color: rgb(22, 3, 41);
+}
+
+.Tutorial {
+    text-decoration: none;
+    color: rgb(22, 3, 41);
+}
+
+.contact {
+    text-decoration: none;
+    color: rgb(22, 3, 41);
+}
+
+.SignUp {
+    text-decoration: none;
+    color: rgb(22, 3, 41);
+    border: 5px solid white;
+    width: 35%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.SignIn {
+    text-decoration: none;
+    color: rgb(22, 3, 41);
+}
+
+.Si {
+    background-color: transparent;
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    height: 100%;
+}
+
+
+.dropdown {
+    position: absolute;
+    display: flex;
+    background: transparent;
+    left: 78%;
+    height: 70%;
+    width: 18%;
+    bottom: 10%;
+    color: rgb(22, 3, 41);
+    background: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.dropbtn {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 75%;
+    border: none;
+}
+
+.ame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+.dropdownContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #f9f9f9;
+    width: 500%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.dropdownContent .USD {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+}
+
+.dropdownContent .EUROS {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+}
+
+.dropdownContent .POUNDS {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+}
+
+.dropdownContent .EUROS:hover {
+    background-color: blue;
+}
+
+.dropdownContent .USD:hover {
+    background-color: blue;
+}
+
+.dropdownContent .POUNDS:hover {
+    background-color: blue;
+}
+
+.dropdown:hover .dropdownContent {
+    display: flex;
+    position: absolute;
+}
+
+.firstTop {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(218, 218, 245);
+    left: 0;
+    top: 8.5%;
+    color: rgb(22, 3, 41);
+
+}
+
+.PG {
+    color: orangered;
+    top: 15%;
+    width: 20%;
+    position: absolute;
+    left: 7%;
+}
+
+.QA {
+    color: rgb(22, 3, 41);
+    top: 20%;
+    width: 40%;
+    position: absolute;
+    left: 7%;
+    font: caption;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    text-decoration: underline;
+    color: rgb(91, 10, 167);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.preStatment {
+    position: absolute;
+    font-size: medium;
+    color: rgb(126, 112, 139);
+    top: 63%;
+    left: 7%;
+}
+
+.GS {
+    background: rgb(90, 16, 165);
+    color: white;
+    font-size: 70%;
+    width: 10%;
+    padding: 15px 32px;
+    border: 2px solid rgb(90, 16, 165);
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: Tahoma;
+    position: absolute;
+    top: 75%;
+    left: 7%;
+}
+
+.LS {
+    color: rgb(90, 16, 165);
+    background: white;
+    font-size: 70%;
+    font-weight: bolder;
+    font-family: Tahoma;
+    width: 10%;
+    padding: 15px 32px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 75%;
+    left: 18%;
+}
+
+.after {
+    position: absolute;
+    top: 70%;
+    background: white;
+    height: 200%;
+    width: 100%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.TB {
+    color: orangered;
+    position: absolute;
+    height: 1%;
+    left: 47%;
+    top: 5%;
+
+}
+
+.OBP {
+    color: rgb(22, 3, 41);
+    position: absolute;
+    height: 1%;
+    left: 0%;
+    top: 5%;
+    left: 40%;
+    /*font: caption;
+    font-size: xx-large;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.OBA {
+    color: rgb(102, 90, 116);
+    font-size: small;
+    position: absolute;
+    height: 1%;
+    left: 42%;
+    top: 10.5%;
+}
+
+.boxes {
+    background: white;
+    position: absolute;
+    height: 5%;
+    width: 85%;
+    left: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 14%;
+}
+
+.box1 {
+    top: 25%;
+    height: 30%;
+    width: 10%;
+    background: rgb(205, 203, 207);
+}
+
+.box2 {
+    top: 25%;
+    height: 30%;
+    width: 10%;
+    background: rgb(205, 203, 207);
+}
+
+.box3 {
+    top: 25%;
+    height: 30%;
+    width: 10%;
+    background: rgb(205, 203, 207);
+}
+
+.box4 {
+    top: 25%;
+    height: 30%;
+    width: 10%;
+    background: rgb(205, 203, 207);
+}
+
+.box5 {
+    top: 25%;
+    height: 30%;
+    width: 10%;
+    background: rgb(205, 203, 207);
+}
+
+.TA {
+    color: orangered;
+    position: absolute;
+    height: 20%;
+    left: 7%;
+    top: 22%;
+}
+
+.BYG {
+    color: rgb(22, 3, 41);
+    position: absolute;
+    height: 20%;
+    top: 22%;
+    left: 7%;
+    /*font: caption;
+    font-size: xx-large;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.WWC {
+    color: rgb(102, 90, 116);
+    font-size: small;
+    position: absolute;
+    height: 1%;
+    left: 72%;
+    top: 27%;
+}
+
+.bocs {
+    background: transparent;
+    position: absolute;
+    height: 30%;
+    width: 86%;
+    top: 32%;
+    left: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bocs1 {
+    height: 100%;
+    width: 32%;
+    background: rgb(238, 234, 243);
+    border-radius: 15px;
+}
+
+.bocs2 {
+    height: 100%;
+    width: 32%;
+    background: rgb(238, 234, 243);
+    border-radius: 15px;
+}
+
+.bocs3 {
+    height: 100%;
+    width: 32%;
+    background: rgb(238, 234, 243);
+    border-radius: 15px;
+}
+
+.emoji {
+    background: white;
+    height: 10%;
+    width: 10%;
+    margin-top: 15%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.learn {
+    margin-top: 20%;
+    margin-left: 5%;
+    color: rgb(90, 16, 165);
+    font-weight: bolder;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.H {
+    color: rgb(22, 3, 41);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.WU {
+    color: rgb(71, 64, 78);
+    font-size: larger;
+    margin-left: 5%;
+}
+
+
+.netTop {
+    background: transparent;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top: 69%;
+    color: black;
+}
+
+.bo1 {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background: transparent;
+    left: 7%;
+}
+
+.EM {
+    position: absolute;
+    height: 10%;
+    left: 3%;
+    width: 97%;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(71, 64, 78);
+    top: 2%;
+}
+
+.dot {
+    margin-right: 5%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.YC {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    width: 92%;
+    height: 72%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px
+}
+
+.mainYC {
+    position: absolute;
+    background: rgb(238, 234, 243);
+    width: 100%;
+    height: 17%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border-radius: 15px;
+    color: rgb(22, 3, 41);
+}
+
+
+
+.YCdollar {
+    padding-left: 3%;
+}
+
+.mainYR {
+    color: rgb(22, 3, 41);
+    position: absolute;
+    top: 83%;
+    background: rgb(238, 234, 243);
+    width: 100%;
+    height: 17%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border-radius: 15px;
+}
+
+.three {
+    position: absolute;
+    height: 66%;
+    width: 100%;
+    background: transparent;
+    top: 17%;
+}
+
+.fst {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    height: 33%;
+}
+
+.snd {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    height: 33%;
+    top: 33%;
+}
+
+.trd {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    height: 33%;
+    top: 66%;
+}
+
+.cs {
+    position: absolute;
+    left: 5%;
+    background-color: rgb(205, 203, 207);
+    top: 40%;
+    border-radius: 50%;
+    height: 40%;
+    width: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cs:first-child {
+    padding-top: 0.3%;
+}
+
+.ws {
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    left: 10%;
+    background-color: transparent;
+    color: rgb(102, 90, 116);
+    top: 40%;
+}
+
+.rs {
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    left: 50%;
+    background-color: transparent;
+    color: rgb(102, 90, 116);
+    top: 40%;
+}
+
+.CN {
+    position: absolute;
+    top: 102%;
+    height: 13%;
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 1%;
+}
+
+.DYNH {
+    color: rgb(102, 90, 116);
+    background-color: transparent;
+    height: 10%;
+    width: 100%;
+    top: 114%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    padding-top: 4%;
+}
+
+.bo2 {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background: transparent;
+    left: 50%;
+    color: rgb(71, 64, 78);
+}
+
+.BS {
+    color: black;
+    position: absolute;
+    height: 5%;
+    left: 3%;
+    width: 97%;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: orangered;
+    top: 2%;
+}
+
+.EYM {
+    color: rgb(22, 3, 41);
+    position: absolute;
+    height: 20%;
+    width: 80%;
+    top: 7%;
+    left: 3%;
+    /*font: caption;
+    font-size: xx-large;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.STLA {
+    position: absolute;
+    background-color: transparent;
+    top: 32%;
+    height: 50%;
+    width: 85%;
+    left: 3%;
+}
+
+.DPCN {
+    color: rgb(22, 3, 41);
+    position: absolute;
+    height: 10%;
+    width: 80%;
+    background-color: transparent;
+    top: 100%;
+    left: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.DDPDF {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+}
+
+.CALNO {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    left: 50%;
+}
+
+.LEM {
+    background: rgb(90, 16, 165);
+    color: white;
+    font-size: 70%;
+    width: 25%;
+    padding: 15px 32px;
+    border: 2px solid rgb(90, 16, 165);
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: Tahoma;
+    position: absolute;
+    top: 110%;
+    left: 0%;
+}
+
+.later {
+    position: absolute;
+    top: 290%;
+    height: 370%;
+    width: 99%;
+    background-color: transparent;
+}
+
+.OnTop {
+    background: transparent;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+}
+
+.bo11 {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background: transparent;
+    left: 7%;
+    color: rgb(71, 64, 78);
+}
+
+.LEMO {
+    background: rgb(90, 16, 165);
+    color: white;
+    font-size: 70%;
+    width: 25%;
+    padding: 15px 32px;
+    border: 2px solid rgb(90, 16, 165);
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: Tahoma;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+
+}
+
+.STLB {
+    position: absolute;
+    background-color: transparent;
+    top: 32%;
+    height: 20%;
+    width: 85%;
+    left: 3%;
+}
+
+.SGN {
+    position: absolute;
+    top: 53%;
+    background-color: white;
+    height: 20%;
+    width: 100%;
+}
+
+.SIGNATURE {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+}
+
+.MANAGER {
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    color: rgb(22, 3, 41);
+    top: 60%;
+}
+
+.bo12 {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: transparent;
+    left: 50%;
+    color: rgb(71, 64, 78);
+}
+
+.NS {
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    left: 40%;
+}
+
+.YI {
+    position: absolute;
+    height: 3%;
+    width: 50%;
+    top: 22%;
+    left: 40%;
+}
+
+.PRT {
+    position: absolute;
+    height: 5%;
+    width: 50%;
+    top: 25%;
+    left: 33%;
+    color: rgb(126, 112, 139);
+}
+
+.RECIEPT {
+    position: absolute;
+    top: 35%;
+    height: 50%;
+    width: 80%;
+    border-bottom: 10px solid rgb(247, 243, 243);
+    border-top: 1px solid rgb(247, 243, 243);
+    border-left: 1px solid rgb(247, 243, 243);
+    border-right: 1px solid rgb(247, 243, 243);
+    left: 10%;
+    border-radius: 15px;
+}
+
+.IT {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    height: 10%;
+    width: 20%;
+}
+
+.ES {
+    position: absolute;
+    top: 12%;
+    height: 43%;
+    left: 10%;
+    width: 80%;
+    background-color: rgb(238, 234, 243);
+    border-radius: 15px;
+    color: rgb(126, 112, 139);
+}
+
+.ESN1 {
+    position: absolute;
+    height: 31%;
+    width: 90%;
+    top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 5%;
+}
+
+.ESN2 {
+    position: absolute;
+    height: 31%;
+    width: 90%;
+    top: 37%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 5%;
+}
+
+.ESN3 {
+    position: absolute;
+    height: 31%;
+    width: 90%;
+    top: 69%;
+    display: flex;
+    flex-direction: row;
+    left: 5%;
+    justify-content: space-between;
+}
+
+.ISD {
+    position: absolute;
+    height: 13%;
+    width: 90%;
+    top: 60%;
+    display: flex;
+    flex-direction: row;
+    left: 5%;
+    justify-content: space-between;
+}
+
+.PD {
+    position: absolute;
+    height: 13%;
+    width: 90%;
+    top: 73%;
+    display: flex;
+    flex-direction: row;
+    left: 5%;
+    justify-content: space-between;
+}
+
+.PM {
+    position: absolute;
+    height: 13%;
+    width: 90%;
+    top: 86%;
+    display: flex;
+    flex-direction: row;
+    left: 5%;
+    justify-content: space-between;
+}
+
+.NH {
+    position: absolute;
+    height: 10%;
+    width: 60%;
+    left: 40%;
+    color: rgb(102, 90, 116);
+    top: 90%;
+}
+
+.HUA {
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top: 40%;
+    color: rgb(102, 90, 116);
+}
+
+.HU {
+    position: absolute;
+    height: 5%;
+    width: 50%;
+    left: 45%;
+    color: orangered;
+}
+
+.A1M {
+    position: absolute;
+    top: 5%;
+    height: 10%;
+    width: 50%;
+    left: 35%;
+    color: rgb(22, 3, 41);
+    font-size: 40px;
+}
+
+.TIFF {
+    position: absolute;
+    top: 18%;
+    height: 10%;
+    width: 50%;
+    left: 40%;
+}
+
+.LC {
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    height: 20%;
+    width: 20%;
+}
+
+.CC {
+    position: absolute;
+    top: 28%;
+    left: 42.5%;
+    height: 20%;
+    width: 20%;
+}
+
+.RC {
+    position: absolute;
+    top: 28%;
+    right: 10%;
+    height: 20%;
+    width: 20%;
+}
+
+.VH {
+    position: absolute;
+    height: 20%;
+    width: 40%;
+    top: 55%;
+    left: 30%;
+}
+
+.pos {
+    position: absolute;
+    height: 20%;
+    width: 80%;
+    left: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.TBN {
+    position: absolute;
+    height: 10%;
+    width: 40%;
+    top: 67%;
+    left: 45%;
+}
+
+.COMI {
+    position: absolute;
+    height: 5%;
+    width: 40%;
+    top: 70%;
+    left: 44.5%;
+}
+
+.SC {
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    top: 73%;
+    left: 46.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.k1 {
+    position: absolute;
+    top: 18%;
+    height: 24%;
+    left: 10%;
+    width: 12%;
+    border-radius: 50%;
+    background-color: rgb(22, 3, 41);
+}
+
+.k2 {
+    position: absolute;
+    top: 20%;
+    height: 20%;
+    left: 30%;
+    width: 9%;
+    border-radius: 50%;
+    background-color: rgb(126, 112, 139);
+}
+
+.k3 {
+    position: absolute;
+    top: 20%;
+    height: 20%;
+    left: 50%;
+    width: 9%;
+    border-radius: 50%;
+    background-color: rgb(126, 112, 139);
+}
+
+.STL {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 70%;
+    color: rgb(102, 90, 116);
+    background-color: rgb(218, 218, 245);
+}
+
+.PROM {
+    position: absolute;
+    height: 5%;
+    top: 15%;
+    width: 50%;
+    left: 45%;
+    color: orangered;
+}
+
+.STON {
+    position: absolute;
+    top: 24%;
+    height: 10%;
+    width: 50%;
+    left: 31%;
+    color: rgb(22, 3, 41);
+    font-size: 40px;
+}
+
+.GTNAT {
+    position: absolute;
+    top: 45%;
+    height: 10%;
+    width: 50%;
+    left: 35%;
+}
+
+.EYEA {
+    position: absolute;
+    top: 65%;
+    height: 12%;
+    width: 30%;
+    left: 35%;
+}
+
+.searchBar {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background: transparent;
+    color: rgb(102, 90, 116);
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.typeIn {
+    position: absolute;
+    height: 90%;
+    top: -6%;
+    width: 60%;
+    left: 10%;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.emi {
+    position: absolute;
+    height: 70%;
+    width: 20%;
+    top: 20%;
+    left: 5%;
+
+}
+
+.tap {
+    position: absolute;
+    height: 90%;
+    width: 25%;
+    border: none;
+    border-radius: 15px;
+    background: transparent;
+    right: 1%;
+    top: 5%;
+    background-color: rgb(59, 9, 109);
+    outline: none;
+    color: white;
+}
+
+.PCS {
+    position: absolute;
+    width: 80%;
+    height: 12%;
+    left: 10%;
+    top: 88%;
+    color: rgb(102, 90, 116);
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.PRUT {
+    position: absolute;
+    height: 100%;
+    width: 20%;
+}
+
+.CONY {
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    left: 20%;
+}
+
+.SUPR {
+    position: absolute;
+    height: 100%;
+    width: 18%;
+    left: 40%;
+}
+
+.CONU {
+    position: absolute;
+    height: 100%;
+    width: 22%;
+    left: 58%;
+}
+
+.SUTD {
+    position: absolute;
+    height: 100%;
+    width: 21%;
+    left: 80%;
+}
+
+.P {
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.doc {
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    top: 15%;
+}
+
+.im {
+    position: absolute;
+    height: 15%;
+    top: 30%;
+    width: 100%;
+}
+
+.pr {
+    position: absolute;
+    height: 15%;
+    top: 45%;
+    width: 100%;
+}
+
+.ap {
+    position: absolute;
+    height: 15%;
+    top: 60%;
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    height: 2.5%;
+    top: 665%;
+    left: 0%;
+    width: 98.15%;
+    padding: 25px 12.5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    z-index: 100;
+    color: rgb(59, 9, 109);
+    text-decoration: none;
+    font-weight: bold;
+    border-top: 1px solid rgb(189, 179, 201);
+}
